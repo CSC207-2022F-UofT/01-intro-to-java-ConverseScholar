@@ -39,6 +39,10 @@ public class Basics {
          *    (Relevant reading: 1.1.3. Printing things)
          */
         System.out.println(7 + 5);
+
+        /* TODO (Task 1): Write a line of code below that prints the string
+         *                Hello World!
+         */
         System.out.println("Hello World!");
 
 
@@ -55,6 +59,10 @@ public class Basics {
          *    (Relevant reading: 1.2. Variables and Types)
          */
 
+        /*
+         * TODO (Task 2): Create a variable named my_variable and assign it the
+         *                value 100.
+         */
         int my_variable = 100;
 
 
@@ -82,6 +90,10 @@ public class Basics {
          */
 
         /*
+         * TODO (Task 3): Create a for-loop that loops from 10 to 0, printing
+         *                the following at each iteration:
+         *                Current count: #
+         *
          * e.g. the end result should look like:
          * Current count: 10
          * Current count: 9
@@ -133,6 +145,7 @@ public class Basics {
         /* TODO (Task 4): Complete this method body.
          *                The String methods .split and .charAt may be helpful,
          *                along with the StringBuilder.append
+         *                You may also assume that to_split always has 7 words
          *                You may also assume that to_split always has 7int words
          *                separated by spaces, so no loops are required, though
          *                you may use them if you wish.
@@ -172,6 +185,7 @@ public class Basics {
          *                You can index into arrays as we do in Python
          *                (e.g. arr[i] gives you the item at index i).
          */
+
         if (arr.length < 2)
         {
             return 0;
