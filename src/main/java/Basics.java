@@ -66,7 +66,6 @@ public class Basics {
         int my_variable = 100;
 
 
-
         /* Do not remove the line below: if you did task 2 correctly, then
          * you should see the message "my_variable's value is 100" if you run
          * this file!
@@ -101,14 +100,13 @@ public class Basics {
          * Current count: 1
          * Current count: 0
          */
-        for (int i = 10; i >= 0; i--)
-        {
+        for (int i = 10; i >= 0; i--) {
             System.out.println("Current count: " + i);
         }
 
-       // System.out.println(split("Idol Long Oolong Vertical Europe University Toyota"));
-        int[] arr = {1, 2, 3, 4, 5, 6, 7};
-        System.out.println(oddSum(arr));
+//       System.out.println(split("Idol Long Oolong Vertical Europe University Toyota"));
+//        int[] arr = {1, 2, 3, 4, 5, 6, 7};
+//        System.out.println(oddSum(arr));
 
     }
 
@@ -186,12 +184,10 @@ public class Basics {
          *                (e.g. arr[i] gives you the item at index i).
          */
 
-        if (arr.length < 2)
-        {
-            return 0;
-        }
-        for (int i = 1; i <= arr.length; i += 2) {
-            current_sum += arr[i];
+        for (int i = 0; i <= arr.length; i += 1) {
+            if (i % 2 == 1) {
+                current_sum += arr[i];
+            }
         }
         return current_sum;
     }
